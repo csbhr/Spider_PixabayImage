@@ -34,7 +34,7 @@ def get_image_url_list_loop(list_image_a_href):
         i=i+1
     return set_image_src
 
-list_image_a_href=get_image_a_href_list("风景")
+list_image_a_href=get_image_a_href_list("人物")
 set_image_src=get_image_url_list_loop(list_image_a_href)
 print(len(set_image_src))
 for src in set_image_src:
